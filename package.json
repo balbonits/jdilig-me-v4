@@ -1,0 +1,33 @@
+{
+  "name": "jdilig-me-v4",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal portfolio website - projects, code exercises, and technical notes",
+  "author": "John Dilig",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balbonits/jdilig-me-v4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/balbonits/jdilig-me-v4/issues"
+  },
+  "homepage": "https://jdilig.me",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  }
+}
